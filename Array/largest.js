@@ -11,4 +11,4 @@ function largest(arr) {
 }
 
 
-console.log(largest([4,5,1,3,7,3]));
+console.log(largest([4, 5, 1, 3, 7, 3]));
