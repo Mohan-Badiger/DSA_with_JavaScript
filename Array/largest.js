@@ -1,6 +1,5 @@
 function largest(arr) {
     let large = arr[0];
-
     for (let i = 0; i <= arr.length; i++) {
         if (arr[i] > large) {
             large = arr[i]
@@ -8,6 +7,5 @@ function largest(arr) {
     }
     return large;
 }
-
 
 console.log(largest([4, 5, 1, 3]));
