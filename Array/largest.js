@@ -1,5 +1,4 @@
 function largest(arr) {
-    // code here 
     let large = arr[0];
 
     for (let i = 0; i <= arr.length; i++) {
