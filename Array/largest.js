@@ -20,9 +20,9 @@ let doubled = numbers.map((value)=>{
 
 console.log(doubled)*/
 
-let petrolPrices = 105;
+/*let petrolPrices = 105;
 let userNeed = 2
 
 let pay = petrolPrices*userNeed
 
-console.log(pay);
+console.log(pay);*/
