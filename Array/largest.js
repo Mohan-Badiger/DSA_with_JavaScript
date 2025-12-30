@@ -26,3 +26,23 @@ let userNeed = 2
 let pay = petrolPrices*userNeed
 
 console.log(pay);*/
+
+
+let marks = [10,15,30,20,30,40,50];
+
+// let results = []
+
+// for(let i =0; i< marks.length; i++){
+//     if(marks[i]>20){
+//         results.push(marks[i])
+//     }
+// }
+
+// console.log(results);
+
+
+let result = marks.filter((value)=>{
+  return value>20 && [...new Set(value)]
+})
+
+console.log(result);
