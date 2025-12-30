@@ -41,8 +41,8 @@ let marks = [10,15,30,20,30,40,50];
 // console.log(results);
 
 
-let result = marks.filter((value)=>{
-  return value>20 && [...new Set(value)]
-})
+// let result = marks.filter((value)=>{
+//   return value>20 && [...new Set(value)]
+// })
 
-console.log(result);
+// console.log(result);
