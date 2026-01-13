@@ -9,6 +9,7 @@
 }
 
 console.log(largest([4, 5, 1, 3]));
+
 */
 
 /*
@@ -28,7 +29,7 @@ let pay = petrolPrices*userNeed
 console.log(pay);*/
 
 
-let marks = [10,15,30,20,30,40,50];
+let marks = [10,15,30,20,30,40,50,60];
 
 // let results = []
 
