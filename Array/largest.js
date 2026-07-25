@@ -12,38 +12,23 @@ console.log(largest([4, 5, 1, 3]));
 
 */
 
-/*
-let numbers = [1,2,3,4,5]
-
-let doubled = numbers.map((value)=>{
-    return value *2;
-})
-
-console.log(doubled)*/
-
-/*let petrolPrices = 105;
-let userNeed = 2
-
-let pay = petrolPrices*userNeed
-
-console.log(pay);*/
 
 
-let marks = [10,15,30,20,30,40,50,60];
+//doubling the array element like [1,2,3,4,5] -> [2,4,6,8,10]
+// let numbers = [1, 2, 3, 4, 5]
 
-let results = []
+// let doubled = numbers.map((value) => {
+//     return value * 2;
+// })
 
-for(let i =0; i< marks.length; i++){
-    if(marks[i]>20){
-        results.push(marks[i])
-    }
-}
-
-console.log(results);
+// console.log(doubled)
 
 
-let result = marks.filter((value)=>{
-  return value>20 && [...new Set(value)]
-})
 
-console.log(result);
+// let petrolPrices = 105;
+// let userNeed = 100
+// let pay = userNeed / petrolPrices
+
+// console.log(Math.round(pay * 100) / 100);
+
+
