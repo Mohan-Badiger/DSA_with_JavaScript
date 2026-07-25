@@ -1,0 +1,14 @@
+An array is a special type of object used to store an ordered collection of multiple values under a single variable name.
+
+Advantages:
+1.Store Multiple values.
+2.Store All type of Datatypes like String, Number,Boolean,Object,Array etc.
+3.It can be resized i.e., we can add or remove elements from it.
+4.Easy to traverse using for loop,map,filter etc.
+5.Built in methods like push,pop,shift,unshift,splice,slice,concat,map,filter,reduce etc.
+
+Disadvantages:
+1.Slow Performance due to dynamic memory allocation.
+2.Memory Overhead.
+
+Best practices:
