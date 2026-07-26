@@ -28,26 +28,27 @@
 // console.log(output);
 
 
-var addTwoNumbers = function(l1, l2) {
 
-    const reverseArray1 = l1.reverse()
-    const reverseArray2 = l2.reverse()
+// ============================================================================================
+// var addTwoNumbers = function(l1, l2) {
 
-    const num1 = parseInt(reverseArray1.join(''),10);
-    const num2 = parseInt(reverseArray2.join(''),10);
+//     const reverseArray1 = l1.reverse()
+//     const reverseArray2 = l2.reverse()
 
-    const addNum = num1+num2
+//     const num1 = parseInt(reverseArray1.join(''),10);
+//     const num2 = parseInt(reverseArray2.join(''),10);
 
+//     const addNum = num1+num2
     
-    const semioutput = Array.from(String(addNum), Number);
+//     const semioutput = Array.from(String(addNum), Number);
     
-    const output = semioutput.reverse()
+//     const output = semioutput.reverse()
 
-    return output
+//     return output
     
-};
+// };
 
-console.log(addTwoNumbers([9,9,9,9,9,9,9], [9,9,9,9]));
+// console.log(addTwoNumbers([9,9,9,9,9,9,9], [9,9,9,9]));
 
 
 
