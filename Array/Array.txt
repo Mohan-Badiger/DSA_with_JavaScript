@@ -10,5 +10,4 @@ Advantages:
 Disadvantages:
 1.Slow Performance due to dynamic memory allocation.
 2.Memory Overhead.
-
 Best practices:
