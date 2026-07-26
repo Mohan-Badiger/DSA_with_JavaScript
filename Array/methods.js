@@ -103,3 +103,5 @@ console.log(ascending);
 let descending = sortNumbers.sort((a, b) => b - a) //for descending
 console.log(descending);
 
+
+//
