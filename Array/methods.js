@@ -104,4 +104,21 @@ let descending = sortNumbers.sort((a, b) => b - a) //for descending
 console.log(descending);
 
 
-//
+//===============================
+console.log("===============================");
+
+// Fill = fill a array with a single value
+let fillArray = new Array(5).fill(0)
+console.log(fillArray);
+
+// Flat = flat a array up to a specified depth
+const nestedArray = [1, 2, [3, 4, [5, 6], 7], 8, [9, 10]];
+const flattened = nestedArray.flat(2);
+console.log(flattened);
+
+// CopyWithin
+const arrayCopy = [1, 2, 3, 4, 5];
+arrayCopy.copyWithin(1, 3, 5)
+console.log(arrayCopy);
+
+// FlatMap
