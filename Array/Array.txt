@@ -11,3 +11,51 @@ Disadvantages:
 1.Slow Performance due to dynamic memory allocation.
 2.Memory Overhead.
 
+Array Methods:
+push()
+pop()
+unshift()
+shift()
+splice()
+slice()
+forEach()
+map()
+filter()
+reduce()
+some()
+every()
+sort()
+fill()
+flat()
+copyWithin()
+indexOf()
+includes()
+find()
+findIndex()
+
+Array DSA questions:
+1. Linear search
+2. Binary search
+3. Rotation of an array
+4. Two pointers
+5. Sliding window
+6. Merge and sort
+7. Remove duplicates
+8. Find maximum/minimum
+9. Rotate array
+10. Count occurrences
+11. Find missing number
+12. Reverse array
+13. Find pairs with sum K
+14. Sort an array of 0s, 1s and 2s
+15. Kadane's Algorithm (Maximum subarray sum)
+16. Merge Intervals
+17. Best Time to Buy and Sell Stock
+18. Product of Array Except Self
+19. Move all zeroes to the end
+20. First Missing Positive
+21. Rotate Image (Matrix)
+22. Subarray Sum Equals K
+23. Maximum Product Subarray
+24. 3Sum Problem
+25. Maximum Area of Histogram   
