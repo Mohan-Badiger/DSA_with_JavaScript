@@ -1,1 +1,44 @@
 Function
+
+A Function is a reusable block of code designed to perform a specific task.
+
+syntax :
+    function greet(){
+        console.log("Hello");
+    }
+    
+    greet()
+
+parameters and arguments
+
+parameter : A parameter is a varible defined in a function defination that receives a value when function is called.
+
+Argument : An argument is a actual value passed during the function call.
+
+Return : It will send the result back to the caller.
+
+Type of function
+1. Function Declaration
+    function greet(){
+        console.log("Hello");
+    }
+    greet()
+
+2. Function Expression
+    var greet = function(){
+        console.log("Hello");
+    }
+    greet()
+
+3. Arrow Function
+    const greet = () => {
+        console.log("Hello");
+    }
+    greet()
+
+4. Constructor Function
+    function greet(){
+        console.log("Hello");
+    }
+    greet()
+
