@@ -63,7 +63,6 @@ DSA_with_JavaScript/
 
 - LeetCode
 - HackerRank
-- CodeChef
 - GeeksforGeeks
 
 ## Learning Focus
