@@ -1,3 +1,5 @@
+Array :
+
 An array is a special type of object used to store an ordered collection of multiple values under a single variable name.
 
 Advantages:
