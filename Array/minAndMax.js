@@ -1,3 +1,5 @@
+//min and max in an array
+
 function getMinMax(arr) {
     // code here
     let min = arr[0];
