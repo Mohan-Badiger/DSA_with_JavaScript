@@ -1,7 +1,6 @@
 // Given an array arr[] of positive integers. The task is to return the count of the number of odd and even elements in the array.
 
 // Note: Return two elements where the first one in the count of odd & second one is the count of even.
-
 function countOddEven(arr) {
     // Your code here
     let even = 0;
