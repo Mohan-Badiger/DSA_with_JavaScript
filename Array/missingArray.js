@@ -1,4 +1,4 @@
-//missing array 
+//missing item in an array 
 const missingNum = (arr) => {
     let sum = 0;
     let n = arr.length + 1;
