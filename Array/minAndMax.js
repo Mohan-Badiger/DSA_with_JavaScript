@@ -15,5 +15,4 @@ function getMinMax(arr) {
     }
     return [min, max];
 }
-
 console.log(getMinMax([5, 6, 4, 2, 8, 3, 9]));
