@@ -1,3 +1,5 @@
+//second largest in an array
+
 function secondLargest(arr) {
     let largest = arr[0];
     let secondLargest = arr[1];
