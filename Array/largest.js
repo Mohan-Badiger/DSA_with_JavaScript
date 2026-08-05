@@ -22,9 +22,6 @@ console.log(largest([4, 5, 1, 3]));
 // })
 
 // console.log(doubled)
-
-
-
 let petrolPrices = 105;
 let userNeed = 100
 let pay = userNeed / petrolPrices
