@@ -1,6 +1,7 @@
 # DSA with JavaScript
 
 This repository contains my Data Structures and Algorithms (DSA) practice using JavaScript.  
+
 It is focused on building strong problem-solving skills, understanding core concepts, and writing clean, efficient solutions.
 
 ## Purpose
