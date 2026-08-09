@@ -6,3 +6,12 @@
 // }
 
 // console.log(dublicate([1, 2, 1, 3, 5, 6, 7]));
+
+
+let array = [10, 20, 30, 40]
+
+array.unshift('01')
+
+let newArray = array.map(Number)
+
+console.log(newArray);
