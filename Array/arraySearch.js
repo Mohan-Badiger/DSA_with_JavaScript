@@ -11,4 +11,4 @@ const arrySearch = (arr, x) => {
 
 }
 
-console.log(arrySearch([10, 20, 30, 40, 50], 30));
+console.log(arrySearch([10, 20, 30, 40, 50], 20));
