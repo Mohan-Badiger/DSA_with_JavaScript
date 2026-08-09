@@ -28,7 +28,7 @@
 // ------------------------------------------------------//
 //Area and Circumference of circle 
 // let r = 3;
- 
+
 // let area = 3.142*r*r; //PI*R*R
 // let Circumference = 2*3.142*r;
 
@@ -56,9 +56,9 @@
 //                 return gcd(n, m%n)
 //         }
 //     }
-                
+
 // console.log(gcd(5,23))
-                
+
 //-------------------------------------------------------//  
 
 // function dev(a, b){
@@ -70,7 +70,19 @@
 //         result.push(flr, ceil)
 //         console.log(result);
 //     }
-    
+
 // }
 
 // dev(5,5)
+
+
+//----------------------------------------------------
+
+//DOM manipulation
+
+let cname = document.getElementById("fname");
+let button = document.getElementById("button");
+
+button.addEventListener('click', () => {
+    cname.style.color = "red";
+})
