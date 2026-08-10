@@ -30,25 +30,25 @@
 
 
 // ============================================================================================
-// var addTwoNumbers = function(l1, l2) {
+var addTwoNumbers = function (l1, l2) {
 
-//     const reverseArray1 = l1.reverse()
-//     const reverseArray2 = l2.reverse()
+    const reverseArray1 = l1.reverse()
+    const reverseArray2 = l2.reverse()
 
-//     const num1 = parseInt(reverseArray1.join(''),10);
-//     const num2 = parseInt(reverseArray2.join(''),10);
+    const num1 = parseInt(reverseArray1.join(''), 10);
+    const num2 = parseInt(reverseArray2.join(''), 10);
 
-//     const addNum = num1+num2
-    
-//     const semioutput = Array.from(String(addNum), Number);
-    
-//     const output = semioutput.reverse()
+    const addNum = num1 + num2
 
-//     return output
-    
-// };
+    const semioutput = Array.from(String(addNum), Number);
 
-// console.log(addTwoNumbers([9,9,9,9,9,9,9], [9,9,9,9]));
+    const output = semioutput.reverse()
+
+    return output
+
+};
+
+console.log(addTwoNumbers([9, 9, 9, 9, 9, 9, 9], [9, 9, 9, 9]));
 
 
 
