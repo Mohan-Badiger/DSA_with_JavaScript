@@ -117,6 +117,6 @@ const flattened = nestedArray.flat(2);
 console.log(flattened);
 
 // CopyWithin
-const arrayCopy = [1, 2, 3, 4, 5];
-arrayCopy.copyWithin(1, 3, 5)
-console.log(arrayCopy);
+// const arrayCopy = [1, 2, 3, 4, 5];
+// arrayCopy.copyWithin(1, 3, 5)
+// console.log(arrayCopy);
