@@ -12,5 +12,4 @@ function secondLargest(arr) {
     }
     return secondLargest
 }
-
 console.log(secondLargest([6, 1, 2, 4, 8, 7]));
