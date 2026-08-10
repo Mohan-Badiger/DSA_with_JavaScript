@@ -22,10 +22,10 @@ console.log(largest([4, 5, 1, 3]));
 // })
 
 // console.log(doubled)
-let petrolPrices = 105;
-let userNeed = 100
-let pay = userNeed / petrolPrices
+// let petrolPrices = 105;
+// let userNeed = 100
+// let pay = userNeed / petrolPrices
 
-console.log(Math.round(pay * 100) / 100);
+// console.log(Math.round(pay * 100) / 100);
 
 
