@@ -34,9 +34,9 @@
 // console.log(rotate([1, 2, 3, 4, 5]));
 
 //Method 3
-const rotateClockwiseImmutable = (arr) => {
-    if (arr.length <= 1) return [...arr];
-    return [arr[arr.length - 1], ...arr.slice(0, -1)];
-};
+// const rotateClockwiseImmutable = (arr) => {
+//     if (arr.length <= 1) return [...arr];
+//     return [arr[arr.length - 1], ...arr.slice(0, -1)];
+// };
 
-console.log(rotateClockwiseImmutable([1, 2, 3, 4, 5]));
+// console.log(rotateClockwiseImmutable([1, 2, 3, 4, 5]));
