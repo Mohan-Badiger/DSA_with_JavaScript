@@ -21,17 +21,15 @@
 
 
 //Method 2
-// function rotate(arr) {
-//     if (arr.length <= 1) {
-//         return arr;
-//     }
+function rotate(arr) {
+    if (arr.length <= 1) {
+        return arr;
+    }
+    arr.unshift(arr.pop())
+    return arr
+}
 
-//     arr.unshift(arr.pop())
-//     return arr
-
-// }
-
-// console.log(rotate([1, 2, 3, 4, 5]));
+console.log(rotate([1, 2, 3, 4, 5]));
 
 //Method 3
 // const rotateClockwiseImmutable = (arr) => {
