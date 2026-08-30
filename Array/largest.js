@@ -29,3 +29,16 @@ console.log(largest([4, 5, 1, 3]));
 // console.log(Math.round(pay * 100) / 100);
 
 
+function largest(arr) {
+
+    let large = arr[0]
+
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] > large) {
+            large = arr[i]
+        }
+    }
+    return large
+}
+
+console.log(largest([5, 4, 2, 5, 2]));
