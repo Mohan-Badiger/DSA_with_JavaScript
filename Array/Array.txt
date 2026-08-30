@@ -168,3 +168,33 @@ Array DSA questions:
 23. Maximum Product Subarray
 24. 3Sum Problem
 25. Maximum Area of Histogram   
+
+
+
+
+// Your First 20 Array Problems
+
+// Don't start with hard problems.
+
+🟢 Easy
+Find Maximum Element
+Find Minimum Element
+Reverse Array
+Find Sum of Array
+Linear Search
+Remove Duplicates
+Move Zeroes
+Contains Duplicate
+Two Sum
+Best Time to Buy and Sell Stock
+🟡 Next Level
+Maximum Subarray
+Merge Sorted Array
+Rotate Array
+Majority Element
+Product of Array Except Self
+3Sum
+Container With Most Water
+Subarray Sum Equals K
+Merge Intervals
+Sort Colors
