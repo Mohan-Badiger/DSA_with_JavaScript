@@ -31,21 +31,39 @@
 
 
 
-function getMinMaxIndices(arr) {
-    let minIndex = 0;
-    let maxIndex = 0;
+// function getMinMaxIndices(arr) {
+//     let minIndex = 0;
+//     let maxIndex = 0;
 
-    for (let i = 1; i < arr.length; i++) {
-        if (arr[i] < arr[minIndex]) {
-            minIndex = i;
+//     for (let i = 1; i < arr.length; i++) {
+//         if (arr[i] < arr[minIndex]) {
+//             minIndex = i;
+//         }
+//         if (arr[i] > arr[maxIndex]) {
+//             maxIndex = i;
+//         }
+//     }
+
+//     return [minIndex, maxIndex];
+// }
+
+// console.log(getMinMaxIndices([7, 1, 5, 3, 6, 4]));
+
+
+function buySell(prices) {
+    let left = 0; // Buy
+    let right = 1; // Sell
+    let max_profit = 0;
+    while (right < prices.length) {
+        if (prices[left] < prices[right]) {
+            let profit = prices[right] - prices[left];
+            max_profit = Math.max(max_profit, profit);
+        } else {
+            left = right;
         }
-        if (arr[i] > arr[maxIndex]) {
-            maxIndex = i;
-        }
+        right++;
     }
-
-    return [minIndex, maxIndex];
+    return max_profit;
 }
 
-console.log(getMinMaxIndices([7, 1, 5, 3, 6, 4]));
-
+console.log(buySell([7, 1, 5, 3, 6, 4]));
