@@ -6,5 +6,4 @@ function stringSort(s) {
     return res
 
 }
-
 console.log(stringSort("edcab"));
