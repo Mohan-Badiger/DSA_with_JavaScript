@@ -4,7 +4,7 @@ This repository contains my Data Structures and Algorithms (DSA) practice using 
 
 It is focused on building strong problem-solving skills, understanding core concepts, and writing clean, efficient solutions.
 
-## Purpose
+## Purpose:
 
 - Strengthen problem-solving and logical thinking
 - Master Data Structures and Algorithms using JavaScript
