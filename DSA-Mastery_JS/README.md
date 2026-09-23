@@ -5,20 +5,43 @@ This repository is engineered to teach you DSA both **theoretically** (clear def
 
 ---
 
+## 🌟 SDE Fresher Job Preparation: 15 Must-Know Patterns
+👉 **[Read the Full SDE Fresher Pattern Mastery Roadmap & Question Bank](./SDE-FRESHER-DSA-PATTERNS.md)**
+
+A targeted blueprint of the **15 core algorithmic patterns** (Two Pointers, Sliding Window, Fast & Slow Pointers, Monotonic Stack, Rotated Binary Search, Tree BFS/DFS, In-place Reversals, DP, etc.) tested by top companies (Amazon, Microsoft, Google, Flipkart, Adobe, TCS Digital, Infosys SP) with curated LeetCode/GFG problems and a 60-day study plan.
+
+---
+
 ## 📚 Table of Contents & Roadmap
 
 | Module | Topic | Core Concepts | Level | Status |
 | :---: | :--- | :--- | :---: | :---: |
-| **01** | [**Arrays**](./01-Arrays/README.md) | Contiguous memory, Two Pointers, Sliding Window, Kadane's, Matrices | Beginner ➔ Advanced | ✅ Complete |
-| **02** | [**Strings**](./02-Strings/README.md) | Immutability, ASCII/Unicode, Palindromes, Anagrams | Beginner ➔ Intermediate | ✅ Ready |
-| **03** | [**Linked Lists**](./03-Linked-Lists/README.md) | Nodes, Pointers, Singly, Doubly, Reversals, Fast & Slow Pointers | Intermediate | ✅ Ready |
-| **04** | [**Stacks & Queues**](./04-Stacks-and-Queues/README.md) | LIFO, FIFO, Call Stack, Monotonic Stack, Priority Queue | Intermediate | ✅ Ready |
-| **05** | [**Hash Tables**](./05-Hash-Tables/README.md) | Key-Value hashing, Collisions, Map vs Object, Frequency counters | Intermediate | ✅ Ready |
+| **01** | [**Arrays**](./01-Arrays/README.md) | Contiguous memory, Two Pointers, Sliding Window, Kadane's, Dutch Flag, Intervals | Beginner ➔ Advanced | ✅ Complete |
+| **02** | [**Strings**](./02-Strings/README.md) | Immutability, Anagrams, Longest Substring, Expand Around Center | Beginner ➔ Intermediate | ✅ Ready |
+| **03** | [**Linked Lists**](./03-Linked-Lists/README.md) | Nodes, Fast & Slow Pointers, Reversals, Merge, Nth from End | Intermediate | ✅ Ready |
+| **04** | [**Stacks & Queues**](./04-Stacks-and-Queues/README.md) | LIFO, FIFO, Monotonic Stack, Next Greater Element, Min Stack | Intermediate | ✅ Ready |
+| **05** | [**Hash Tables**](./05-Hash-Tables/README.md) | Key-Value hashing, Prefix Sum + Map, Longest Streak, Bucket Sort | Intermediate | ✅ Ready |
 | **06** | [**Recursion & Backtracking**](./06-Recursion-and-Backtracking/README.md) | Base cases, Call stack memory, Subsets, Permutations | Intermediate ➔ Advanced | ✅ Ready |
-| **07** | [**Searching Algorithms**](./07-Searching-Algorithms/README.md) | Linear search, Binary search variations, Lower/Upper bounds | Beginner ➔ Intermediate | ✅ Ready |
+| **07** | [**Searching Algorithms**](./07-Searching-Algorithms/README.md) | Linear search, Rotated Binary Search, Search on Answer, Peaks | Beginner ➔ Intermediate | ✅ Ready |
 | **08** | [**Sorting Algorithms**](./08-Sorting-Algorithms/README.md) | Bubble, Selection, Insertion, Merge Sort, Quick Sort | Intermediate | ✅ Ready |
-| **09** | [**Trees & BST**](./09-Trees/README.md) | Binary Trees, BST, DFS (Pre/In/Post), BFS (Level-Order) | Advanced | ✅ Ready |
-| **10** | [**Dynamic Programming**](./10-Dynamic-Programming/README.md) | Overlapping subproblems, Memoization (Top-Down), Tabulation (Bottom-Up) | Advanced | ✅ Ready |
+| **09** | [**Trees & BST**](./09-Trees/README.md) | Binary Trees, BST, Level-Order (BFS), Diameter (DFS), LCA | Advanced | ✅ Ready |
+| **10** | [**Dynamic Programming**](./10-Dynamic-Programming/README.md) | 1D DP, Coin Change, LIS, 0/1 Knapsack, Tabulation & Space Optimization | Advanced | ✅ Ready |
+
+---
+
+## 💻 SDE Fresher Pattern-Wise Executable Code Files
+
+| Pattern Area | Runnable File Path | Key Problems Solved |
+| :--- | :--- | :--- |
+| **Arrays & Intervals** | [`01-Arrays/09-dutch-national-flag-and-intervals.js`](./01-Arrays/09-dutch-national-flag-and-intervals.js) | Sort Colors (0,1,2), Merge Intervals, Trapping Rain Water, Most Water |
+| **Strings & Substrings** | [`02-Strings/02-sde-string-patterns.js`](./02-Strings/02-sde-string-patterns.js) | Longest Substring Without Repeating, Group Anagrams, Palindromes, Compression |
+| **Linked Lists** | [`03-Linked-Lists/02-sde-linked-list-patterns.js`](./03-Linked-Lists/02-sde-linked-list-patterns.js) | Middle of List, Merge 2 Lists, Remove Nth from End, Intersection Node |
+| **Stacks & Queues** | [`04-Stacks-and-Queues/02-sde-stack-patterns.js`](./04-Stacks-and-Queues/02-sde-stack-patterns.js) | Valid Parentheses, Next Greater Element, Daily Temperatures, Min Stack |
+| **Hash Tables** | [`05-Hash-Tables/02-sde-hashing-patterns.js`](./05-Hash-Tables/02-sde-hashing-patterns.js) | Subarray Sum = K, Longest Consecutive Sequence, Top K Frequent |
+| **Binary Search** | [`07-Searching-Algorithms/02-binary-search-patterns.js`](./07-Searching-Algorithms/02-binary-search-patterns.js) | Search in Rotated Array, First & Last Position, Peak Element, Sqrt(x) |
+| **Trees & BST** | [`09-Trees/02-sde-tree-patterns.js`](./09-Trees/02-sde-tree-patterns.js) | Level Order (BFS), Tree Diameter (DFS), LCA, Validate BST |
+| **Dynamic Programming** | [`10-Dynamic-Programming/02-sde-dp-patterns.js`](./10-Dynamic-Programming/02-sde-dp-patterns.js) | House Robber (1D), Coin Change, Longest Increasing Subsequence, 0/1 Knapsack |
+
 
 ---
 
