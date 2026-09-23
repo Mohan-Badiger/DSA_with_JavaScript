@@ -1,5 +1,4 @@
 /**
- * ==============================================================================
  * 📦 TOPIC: Array Basics, Memory & Traversal in JavaScript
  * ==============================================================================
  * 
@@ -12,7 +11,6 @@
  * - Search by Value : O(n) [Linear Time]
  * - Traversal       : O(n) [Must visit all n elements]
  * - Space           : O(n) [Stores n elements in memory]
- * ==============================================================================
  */
 
 console.log("=== 1. ARRAY CREATION METHODS ===");
@@ -60,7 +58,7 @@ const pets = ["Dog", "Cat", "Parrot", "Rabbit"];
 console.log("Original pets:", pets, "Length:", pets.length);
 
 // 1. Truncating an array by reducing length
-pets.length = 2; 
+pets.length = 2;
 console.log("After setting length = 2:", pets); // ["Dog", "Cat"]
 
 // 2. Clearing an entire array instantly (O(1))
