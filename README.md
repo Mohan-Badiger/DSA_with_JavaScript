@@ -1,91 +1,70 @@
-# DSA with JavaScript.
+# 🚀 DSA with JavaScript
 
-This repository contains my Data Structures and Algorithms (DSA) practice using JavaScript.  
+Welcome to the comprehensive **DSA with JavaScript** repository.  
+This repository contains personal problem-solving practice, structured conceptual DSA modules, and complete reference study materials.
 
-It is focused on building strong problem-solving skills, understanding core concepts, and writing clean, efficient solutions.
+---
 
-## Purpose:
+## 📂 Repository Structure
 
-- Strengthen problem-solving and logical thinking
-- Master Data Structures and Algorithms using JavaScript
-- Prepare for coding interviews and assessments
-- Improve code quality and time/space complexity awareness
-
-## Topics Covered
-
-- Arrays
-- Strings
-- Linked Lists
-- Stacks & Queues
-- Hashing
-- Recursion
-- Searching Algorithms
-- Sorting Algorithms
-- Two Pointers
-- Sliding Window
-- Basic Mathematics
-- Time & Space Complexity
-
-## Tech Stack
-
-- JavaScript (ES6+)
-- Node.js (for execution)
-- VS Code
-
-## Repository Structure
-
+```
 DSA_with_JavaScript/
-├── Arrays/
-├── Strings/
-├── LinkedList/
-├── Stack/
-├── Queue/
-├── Recursion/
-├── Sorting/
-├── Searching/
-├── Hashing/
-├── TwoPointers/
-├── SlidingWindow/
-├── Math/
-└── README.md
+│
+├── 📁 DSA/                   # Problem-solving practice, algorithms & LeetCode solutions
+│   ├── Array/
+│   ├── Basic/
+│   ├── ScopesAndClosures/
+│   ├── functions/
+│   ├── loop/
+│   ├── oops/
+│   ├── sorting/
+│   └── time and space complexity.txt
+│
+├── 📁 DSA-Mastery_JS/        # Complete structured DSA concepts & learning modules
+│   ├── 01-Arrays/            # Deep dive into Arrays (Memory, Operations, Patterns)
+│   ├── 02-Strings/           # String algorithms & immutability
+│   ├── 03-Linked-Lists/      # Singly/Doubly Linked Lists & cycle detection
+│   ├── 04-Stacks-and-Queues/ # LIFO/FIFO implementations & patterns
+│   ├── 05-Hash-Tables/       # Hash maps, collisions, O(n) Two-Sum
+│   ├── 06-Recursion-and-Backtracking/
+│   ├── 07-Searching-Algorithms/
+│   ├── 08-Sorting-Algorithms/
+│   ├── 09-Trees/
+│   └── 10-Dynamic-Programming/
+│
+└── 📁 javascript notes pdf/  # Comprehensive reference PDFs & chapter notes
+    ├── DSA_CompleteNotes.pdf
+    └── JS_Chapterwise_Notes.pdf
+```
 
-## How to Run
+---
 
-1. Clone the repository  
-   git clone https://github.com/Mohan-Badiger/DSA_with_JavaScript.git
+## 🎯 Purpose & Goals
 
-2. Navigate to the project folder  
-   cd DSA_with_JavaScript
+- **Practice**: Hands-on problem solving across LeetCode, HackerRank, and GeeksforGeeks in `DSA/`.
+- **Mastery**: Step-by-step conceptual mastery with theoretical explanations, time/space complexity, and runnable code in `DSA-Mastery_JS/`.
+- **Reference**: Comprehensive revision notes in `javascript notes pdf/`.
 
-3. Run any JavaScript file  
-   node filename.js
+---
 
-## Coding Platforms Practiced
+## 🏃 How to Run Any Script
 
-- LeetCode
-- HackerRank
-- GeeksforGeeks
+Ensure you have **Node.js** installed, then run any file with:
 
-## Learning Focus
+```bash
+# Running practice problems
+node DSA/Array/twosum.js
 
-- Clean and readable code
-- Optimal time and space complexity
-- Edge case handling
-- Interview-oriented problem solving
+# Running concept mastery modules
+node DSA-Mastery_JS/01-Arrays/01-array-basics.js
+node DSA-Mastery_JS/01-Arrays/04-two-pointer-technique.js
+```
 
-## Progress
+---
 
-- Regularly updating solutions
-- Problems solved from easy to advanced level
-- Well-structured and commented code
+## 👤 Author
 
-## Author
-
-Mohan Badiger  
+**Mohan Badiger**  
 Full Stack Developer (MERN)  
-GitHub: https://github.com/Mohan-Badiger
-Portfolio : https://mohanbadiger.site
-
-## License
-
-This repository is for learning and practice purposes.
+- GitHub: [Mohan-Badiger](https://github.com/Mohan-Badiger)  
+- Portfolio: [mohanbadiger.site](https://mohanbadiger.site)

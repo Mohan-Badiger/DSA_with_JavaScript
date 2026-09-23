@@ -1,0 +1,13 @@
+Common Array Sorting Algorithms
+
+1. Bubble Sort: Repeatedly swaps adjacent elements if they are in the wrong order.
+
+2. Selection Sort: Finds the minimum element and moves it to the beginning.
+
+3. Insertion Sort: Builds a sorted array one item at a time.
+
+4. Merge Sort: Divides the array into halves, sorts them, and merges them (Divide and Conquer).
+
+5. Quick Sort: Uses a pivot element to partition the array.
+
+6. Heap Sort: Uses a binary heap data structure. 
