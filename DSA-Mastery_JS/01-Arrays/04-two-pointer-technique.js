@@ -2,7 +2,6 @@
  * ==============================================================================
  * 📦 TOPIC: The Two-Pointer Technique (Essential DSA Pattern)
  * ==============================================================================
- * 
  * 📖 WHAT IS THE TWO-POINTER PATTERN?
  * Instead of using nested loops O(n^2), we use two index markers ("pointers")
  * that traverse the array either:
