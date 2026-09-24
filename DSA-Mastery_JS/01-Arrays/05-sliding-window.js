@@ -2,7 +2,6 @@
  * ==============================================================================
  * 📦 TOPIC: The Sliding Window Technique (Subarray & Substring Pattern)
  * ==============================================================================
- * 
  * 📖 WHAT IS A SLIDING WINDOW?
  * Instead of re-evaluating contiguous subarrays using nested loops O(n * k),
  * we maintain a "window" of elements. As the window moves 1 step forward:
