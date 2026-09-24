@@ -1,7 +1,6 @@
 /**
  * 📦 TOPIC: Array Basics, Memory & Traversal in JavaScript
  * ==============================================================================
- * 
  * 📖 EASY DEFINITION:
  * An Array is an ordered list of values. Each value is called an "element",
  * and each element has a numerical position known as its "index" (0-indexed).
