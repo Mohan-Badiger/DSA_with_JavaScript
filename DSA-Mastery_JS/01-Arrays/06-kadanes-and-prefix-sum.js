@@ -2,12 +2,10 @@
  * ==============================================================================
  * 📦 TOPIC: Kadane's Algorithm & Prefix Sum Techniques
  * ==============================================================================
- * 
  * 📖 TWO ESSENTIAL TECHNIQUES:
  * 1. PREFIX SUM:
  *    Pre-computes cumulative sums so any subarray sum between indices L and R
  *    can be answered in O(1) time without looping!
- * 
  * 2. KADANE'S ALGORITHM:
  *    Finds the maximum possible sum of any contiguous subarray in O(n) time
  *    and O(1) space.
