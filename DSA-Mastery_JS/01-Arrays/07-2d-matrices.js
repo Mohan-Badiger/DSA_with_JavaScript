@@ -6,7 +6,6 @@
  * 📖 WHAT IS A 2D ARRAY?
  * A 2D array is an array of arrays representing a grid or table of rows and columns.
  * Elements are accessed as: `matrix[row][col]`.
- * 
  * ⚠️ COMMON JS PITFALL:
  * Never initialize with: `new Array(rows).fill([])`
  * Why? Every row will point to the SAME array in memory! Modifying one modifies all!
@@ -135,9 +134,9 @@ function spiralOrder(matrix) {
 }
 
 const spiralInput = [
-  [ 1,  2,  3,  4],
-  [ 5,  6,  7,  8],
-  [ 9, 10, 11, 12]
+  [1, 2, 3, 4],
+  [5, 6, 7, 8],
+  [9, 10, 11, 12]
 ];
 
 console.log("Spiral Order Output:", spiralOrder(spiralInput));
